@@ -46,6 +46,13 @@ print(subtract(box_1, box_2))
 
 #Print the product variable to see your result.
 
+def multiply(num_1, num_2):
+    product = num_1 * num_2
+    return product
+
+print(multiply(box_1, box_2))
+
+
 
 #5
 #Function - divide
