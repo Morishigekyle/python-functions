@@ -20,7 +20,8 @@ def add(num1, num2):
     sum = num1 + num2
     return sum
 
-print(add(box_1, box_2))
+final_sum = add(box_1, box_2)
+print(final_sum)
 
 
 #3
@@ -74,6 +75,11 @@ print(divide(box_1, box_2))
 #This function will return the string "Mariah Carey has been married `x` amount of times." Where `x` is the value stored in the sum variable from exercise 2. Invoke this function and assign it to a variable named `da_diva`.
 
 #Print the da_diva variable to see your result.
+
+def check_sum(x):
+    return "Mariah Carey has been married " + str(x) + " amount of times."
+
+print(check_sum(final_sum))
 
 
 #7
