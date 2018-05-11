@@ -104,6 +104,11 @@ print(check_difference(final_difference))
 
 #This function will multiply the values stored in the sum and product variables. Invoke this function and print your result.
 
+def check_product():
+     return final_sum * final_product
+
+print(check_product())
+
 
 #9
 #Function - check_quotient
