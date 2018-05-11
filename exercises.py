@@ -5,6 +5,8 @@
 #1 
 #Declare two variables box_1 and box_2 and assign any number value of your choosing. These two variables will be used to invoke functions #2 - #5.
 
+box_1 = 23
+box_2 = 54
 
 #2
 #Function - add
@@ -13,6 +15,12 @@
 #This function will add two numbers (the parameters, `num_1` and `num_2`) and return the sum of these two numbers. Invoke the function and assign it to a variable named `sum`.
 
 #Print the sum variable to see your result.
+
+def add(num1, num2):
+    sum = num1 + num2
+    return sum
+
+print(add(box_1, box_2))
 
 
 #3
