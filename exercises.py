@@ -130,6 +130,16 @@ print(check_quotient())
 #Print the my_full_name variable to see your result.
 
 
+def create_full_name(first_name, last_name):
+    my_full_name = first_name + " " + last_name
+    return print(my_full_name)
+
+create_full_name("Kyle", "Morishige")
+
+
+
+
+
 
 
 
