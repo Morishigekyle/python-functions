@@ -36,7 +36,8 @@ def subtract(num1, num2):
     difference = num2 - num1
     return difference
 
-print(subtract(box_1, box_2))
+final_difference = subtract(box_1, box_2)
+print(final_difference)
 
 
 #4
@@ -51,7 +52,8 @@ def multiply(num_1, num_2):
     product = num_1 * num_2
     return product
 
-print(multiply(box_1, box_2))
+final_product = multiply(box_1, box_2)
+print(final_product)
 
 
 
@@ -66,7 +68,8 @@ def divide(num_1, num_2):
     quotient = num_1 / num_2
     return quotient
 
-print(divide(box_1, box_2))
+final_quotient = divide(box_1, box_2)
+print(final_quotient)
 
 
 #6
@@ -90,6 +93,10 @@ print(check_sum(final_sum))
 
 #Print the loving_it variable to see your result.
 
+def check_difference(x):
+    return "Last night I dreamt that I ate " + str(x) + " Big Macs."
+
+print(check_difference(final_difference))
 
 #8
 #Function - check_product
